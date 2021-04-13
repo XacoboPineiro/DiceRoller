@@ -39,14 +39,18 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        val randomInt = Random().nextInt(6) + 1
-        val drawableResource = when (randomInt) {
+        /*
+        Aqui he modificado el codigo original que utilizaba la libreria de java.util para utilizar
+        la funcion random() de la clase Math
+        */
+        val drawableResource = when ((1..7).random()) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
             3 -> R.drawable.dice_3
             4 -> R.drawable.dice_4
             5 -> R.drawable.dice_5
-            else -> R.drawable.dice_6
+            6 -> R.drawable.dice_6
+            else -> R.drawable.dice_7
         }
 
         diceImage.setImageResource(drawableResource)

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Aqui ponemos los nombres para los strings en castellano, y al meter este archivo en la carpeta
+    values-es el sistema operativo reconoce que este es el archivo de strings que debe utilizar si
+    el idioma del dispositivo es castellano, en cualquier otro caso utilizara los de la carpeta values
+-->
+<resources>
+    <string name="app_name">Lanzador de dados</string>
+    <string name="roll">Lanzar</string>
+</resources>
