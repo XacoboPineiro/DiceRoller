@@ -49,7 +49,7 @@
         android:textSize="14sp"
         android:typeface="normal"
         app:icon="@drawable/dados_icono"
-        app:iconTint=""
+        app:iconTint="@color/material_on_surface_disabled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
