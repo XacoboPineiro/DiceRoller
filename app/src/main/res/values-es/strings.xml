@@ -7,4 +7,5 @@
 <resources>
     <string name="app_name">Lanzador de dados</string>
     <string name="roll">Lanzar</string>
+    <string name="contDescDiceImg">Imagen de dado</string>
 </resources>
